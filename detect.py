@@ -17,7 +17,7 @@ class NoFaces(Exception):
     pass  
 
 def landmark():
-    im = cv2.imread(sys.argv[1])  
+    im = cv2.imread('test.jpg')  
       
     #3.使用detector进行人脸检测 rects为返回的结果  
     rects = detector(im,1)  
